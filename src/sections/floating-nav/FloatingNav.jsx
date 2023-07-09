@@ -1,5 +1,5 @@
 import React from "react";
-import "./FloatingNav.css";
+import "./floating-nav.css";
 
 const FloatingNav = () => {
   return <section id="floating__nav"></section>;
