@@ -12,7 +12,7 @@ import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 const App = () => {
   return (
-    <main>
+    <main className={`${themeState.primary} ${themeState.background}`}>
       <Navbar />
       <Header />
       <About />
