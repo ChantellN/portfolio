@@ -41,14 +41,11 @@ const App = () => {
     setSiteYPosition(mainRef?.current?.getBoundingClientRect().y);
   };
 
-  useEffect(
-    (floatingNavToggleHandler) => {
-      const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
-      // cleanup function
-      return () => clearInterval(checkYPosition);
-    },
-    [siteYPosition]
-  );
+  useEffect(() => {
+    const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
+    // cleanup function
+    return () => clearInterval(checkYPosition);
+  });
 
   return (
     <main
