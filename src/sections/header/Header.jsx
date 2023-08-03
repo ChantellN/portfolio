@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderImage from "../../assets/31.png";
-import HeaderBg from "../../assets/headerbg.jpg";
 import data from "./data";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -15,8 +14,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container header__container">
-        <div className="header__profile parent" data-aos="fade-in">
-          <img className="image1" src={HeaderBg} alt="Header Background" />
+        <div className="header__profile" data-aos="fade-in">
           <img className="image2" src={HeaderImage} alt="Header Portrait" />
         </div>
         <h3 data-aos="fade-up">Chantell Nichols</h3>
