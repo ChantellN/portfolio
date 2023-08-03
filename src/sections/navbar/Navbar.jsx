@@ -1,6 +1,6 @@
 import React from "react";
 import data from "./data";
-import Logo from "../../assets/mylogo.jpg";
+import Logo from "../../assets/mylogo.png";
 import { IoIosColorPalette } from "react-icons/io";
 import "./navbar.css";
 import { useModalContext } from "../../context/modal-context";

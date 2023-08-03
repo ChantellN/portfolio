@@ -18,7 +18,10 @@ header {
 .header__profile {
   width: 18rem;
   height: 22rem;
-  border-radius: 9rem 9rem 2rem 2rem;
+  border-radius: 9rem 9rem 9rem 9rem;
+  background-image: url(../../assets/headerbg.jpg);
+  background-position: center;
+  background-size: cover;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }

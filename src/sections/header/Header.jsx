@@ -15,7 +15,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile" data-aos="fade-in">
-          <img className="image2" src={HeaderImage} alt="Header Portrait" />
+          <img src={HeaderImage} alt="Header Portrait" />
         </div>
         <h3 data-aos="fade-up">Chantell Nichols</h3>
         <p data-aos="fade-up">
